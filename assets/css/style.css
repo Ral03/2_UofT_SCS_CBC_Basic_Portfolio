@@ -1,0 +1,50 @@
+#MyNameTxt {
+    color: whitesmoke;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    border: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+#MyNameBG {
+    height: 100px; 
+    width: 500px; 
+    background-color: black;
+    float: left;
+}
+
+
+.HeaderBar {
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0px 25px 0px;
+    border: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+
+body, header, footer {
+    margin: 50px;
+    padding: 0;
+}
+
+.Row {
+    display: table-row;
+    /*width: 100%; /*Optional*/
+    /*table-layout: fixed; /*Optional*/
+   /* border-spacing: 10px; /*Optional*/
+}
+
+.Column
+{
+    display: table-cell;
+    float: right; 
+    height: 100px;
+    width: 200px;
+    background-color: black;
+   /* background-color: red; /*Optional*/
+}
