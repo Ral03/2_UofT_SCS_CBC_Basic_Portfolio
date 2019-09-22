@@ -91,6 +91,7 @@ a :hover {
     color: white;
 }
 
+
 #gitLogo {
     display: flex;
     align-content: center;
@@ -103,6 +104,8 @@ a :hover {
     height: 250px;
     background-color: #353535;
     border: 5px white solid;
+    position: relative;
+    z-index: 2;
     }
 
 .contentBoxBanner{
@@ -113,6 +116,8 @@ a :hover {
     background-color: #757575;
     /* border: 5px white solid; */
     margin: 195px 0px 0px 5px;
+    position: absolute;
+    z-index: 4;
 }
 
 .txtBoxBanner{
@@ -122,9 +127,17 @@ a :hover {
     padding: 8px;
     color: white;
     margin: 0px;
-
 }
 
+.imgBox{
+    height: 240px;
+    width: 390px;
+    margin: 5px;
+}
+.contentBoxImg{
+    position: absolute;
+    z-index: 3;
+}
 .txtBlock {
     padding: 10px;
     color: white;
