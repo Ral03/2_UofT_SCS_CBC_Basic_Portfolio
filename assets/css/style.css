@@ -1,4 +1,4 @@
-#MyNameTxt {
+/* #MyNameTxt {
     color: whitesmoke;
     font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,6 +7,7 @@
     padding: 0;
     align-content: center;
     text-align: center;
+    text-decoration: none;
 }
 
 #MyNameTxtOff {
@@ -62,60 +63,48 @@
 
 .ColumnHead
 {
-    display: table-cell;
-    float: right; 
-    height: 100px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
     background-color: #eeeeee;
 }
 
 #ActiveColumnHead
 {
-    display: table-cell;
-    float: right; 
-    height: 100px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
     background-color: black;
-}
+} */
 
-#foreground {
+#background {
     background-color: #dadada;
+    z-index: 1;
+    padding: 0 0 0 20px;
 }
 
-a :hover {
+/* a :hover {
     background-color: black;
     color: white;
-}
+} */
 
 
 #gitLogo {
     display: flex;
     align-content: center;
-    margin: 20px 750px 20px 750px;
+    margin: 20px 50% 20px 50%;
 }
 
 .contentBox {
-    float: left;
     width: 400px;
     height: 250px;
     background-color: #353535;
+    margin: 10px 2% 10px 2%;
     border: 5px white solid;
     position: relative;
     z-index: 2;
     }
-
 .contentBoxBanner{
     float: left;
     display: flex;
-    width: 390px;
+    width: 380px;
     height: 50px;
     background-color: #757575;
-    /* border: 5px white solid; */
-    margin: 195px 0px 0px 5px;
+    margin: 185px 0px 0px 5px;
     position: absolute;
     z-index: 4;
 }
@@ -130,16 +119,38 @@ a :hover {
 }
 
 .imgBox{
-    height: 240px;
-    width: 390px;
+    height: 230px;
+    width: 380px;
     margin: 5px;
 }
 .contentBoxImg{
     position: absolute;
     z-index: 3;
 }
+.txtBlockContainer {
+    padding: 10px;
+    width: 80vw;
+    min-height:250px;
+    height:auto !important; 
+    -moz-box-flex: inherit;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #353535;
+    margin: 10px 5% 10px 5%;
+    border: 5px white solid;
+    position: relative;
+    z-index: 2;
+    font-size: 1.5em;
+}
 .txtBlock {
     padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
     color: white;
     font-size: 1.5em;
+}
+
+.icon-bar {
+    background-color: black;
 }
