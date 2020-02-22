@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+    .contentBox {
+        width: 80vw;
+        height: 25wh;
+        };
+
+    .contentBoxImg{
+        width: 80vw;
+        height: 25wh;
+        }
+}
+
+
+.contentBox {
+
+    width: 400px;
+    height: 250px;
+    background-color: #353535;
+    margin: 10px 2% 10px 2%;
+    border: 5px white solid;
+    position: relative;
+    z-index: 2;
+    }
+
+.contentBoxBanner{
+    float: left;
+    display: flex;
+    width: 380px;
+    height: 50px;
+    background-color: #757575;
+    margin: 185px 0px 0px 5px;
+    position: absolute;
+    z-index: 4;
+}
+
+.txtBoxBanner{
+    font-size: 2em;
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    padding: 8px;
+    color: white;
+    margin: 0px;
+}
+
+.imgBox{
+    height: 230px;
+    width: 380px;
+    margin: 5px;
+}
+
+.contentBoxImg{
+    position: absolute;
+    z-index: 3;
+}
+
+.txtBlockContainer {
+    padding: 10px;
+    width: 80vw;
+    min-height:250px;
+    height:auto !important; 
+    -moz-box-flex: inherit;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #353535;
+    margin: 10px 5% 10px 5%;
+    border: 5px white solid;
+    position: relative;
+    z-index: 2;
+    font-size: 1.5em;
+}
+
+.txtBlock {
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.5em;
+}

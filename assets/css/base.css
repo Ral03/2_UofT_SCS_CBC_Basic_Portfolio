@@ -1,0 +1,55 @@
+
+.ColumnHead
+{
+    background-color: #eeeeee;
+}
+
+#ActiveColumnHead
+{
+    background-color: black;
+}
+
+#background {
+    background-color: #dadada;
+    z-index: 1;
+    display:flex;
+    flex-flow: wrap column;
+    padding: 0 0 0 0px;
+
+}
+
+ a :hover {
+    background-color: black;
+    color: white;
+} 
+
+
+#gitLogo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.b_list {
+    padding-top:2vh; 
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content: center;
+}
+
+.b_footer {
+    padding-top:2vh; 
+    display:flex; 
+    align-content: flex-end;
+    justify-content: center; 
+    height: 100px;
+
+    bottom: 0;
+    padding: 0px 5vw 0px 5vw;
+    background-color: #000000;
+}
